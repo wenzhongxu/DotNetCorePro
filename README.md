@@ -1,2 +1,4 @@
 # DotNetCorePro
-.net core 3.0 project and vue study
+.net 5.0 project and vue study
+
+
