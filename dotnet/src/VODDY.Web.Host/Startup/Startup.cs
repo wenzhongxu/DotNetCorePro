@@ -34,6 +34,12 @@ namespace VODDY.Web.Host.Startup
             _appConfiguration = env.GetAppConfiguration();
         }
 
+
+        /// <summary>
+        /// 注册容器服务
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             //MVC
@@ -117,6 +123,13 @@ namespace VODDY.Web.Host.Startup
             );
         }
 
+        
+        /// <summary>
+        /// 配置http请求处理管道中的一些配置
+        /// 添加各种中间件，响应web请求时 按照添加顺序响应
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="loggerFactory"></param>
         public void Configure(IApplicationBuilder app,  ILoggerFactory loggerFactory)
         {
             app.UseAbp(options => { options.UseAbpRequestLocalization = false; }); // Initializes ABP framework.
