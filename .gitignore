@@ -4,6 +4,6 @@
 .vs/
 obj/
 bin/
-aspnet-core/src/VODDY.Web.Host/App_Data/Logs/
-aspnet-core/src/VODDY.Web.Mvc/App_Data/Logs/
-aspnet-core/src/VODDY.Migrator/Logs/Logs.txt
+aspnet-core/src/Abp.Pdnf.Web.Host/App_Data/Logs/
+aspnet-core/src/Abp.Pdnf.Web.Mvc/App_Data/Logs/
+aspnet-core/src/Abp.Pdnf.Migrator/Logs/Logs.txt

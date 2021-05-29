@@ -4,7 +4,7 @@ const AppConsts= {
         defaultAdminUserName: 'admin'
     },
     localization:{
-        defaultLocalizationSourceName: 'VODDY'
+        defaultLocalizationSourceName: 'Pdnf'
     },
     authorization:{
         encrptedAuthTokenName: 'enc_auth_token'
