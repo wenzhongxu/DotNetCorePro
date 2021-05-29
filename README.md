@@ -24,10 +24,22 @@
 
 ### 前端
 
-#### 安装依赖
+#### 环境准备
+1. 安装node.js
+2. 安装cnpm
+```shell
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+# npm config set registry https://registry.npm.taobao.org
 ```
-    cd vue
-    npm install yarn
+3. 全局安装vue
+```shell
+cnpm install –g vue-cli
+```
+
+#### 项目搭建
+```
+    cd/d F:\MyProject\DotNetCorePro\vue
+    npm install -g yarn
     yarn install 
 ```
 
